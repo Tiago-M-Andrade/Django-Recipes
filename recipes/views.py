@@ -7,11 +7,3 @@ def home(request):
     return render(request, 'recipes/home.html', context={
         'name': 'Tiago Martins Andrade',
     })
-
-
-def about(request):
-    return HttpResponse('About')
-
-
-def contact(request):
-    return HttpResponse('Contact')
